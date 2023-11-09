@@ -1,0 +1,74 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: relative;
+   top: 100px;
+   background-color: rgb(188,222,231);
+}
+h1{
+    text-align: center;
+}
+.container{
+    background-color: #FFFFFF;
+    padding: 30px 50px 60px 50px;
+    width:20%;
+    justify-content: center;
+
+}
+img{
+    width: 60%;
+    height: 20%;
+    border-radius: 10px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+.info{
+    width: auto;
+   margin-left: 30px;
+
+   
+   
+}
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+i{
+    font-size: 20px;
+    color: rgb(57, 194, 232);
+    margin-right: 10px;
+}
+button{
+    width: 50%;
+    height:50px;
+background-color: black;
+color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-left: 40px;
+}
+button:hover{
+    background-color:rgb(116,192,252) ;
+    color: black;
+    cursor: pointer;
+}
+.media{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-size: 40px;
+}
+.soc{
+    font-size: 40px;
+}
+.soc:hover{
+   color: black;
+}
+h3{
+   margin-left: 35px;
+    color: grey;
+}
